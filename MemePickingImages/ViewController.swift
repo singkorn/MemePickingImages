@@ -18,14 +18,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
 
     @IBAction func pickAnImage(_ sender: Any) {
-        
         let imagePicker = UIImagePickerController()
         imagePicker.delegate = self
         present(imagePicker, animated: true, completion: nil)
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
             ImagePickerView.image = image
         }
@@ -34,7 +32,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
 
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-        
         dismiss(animated: true, completion: nil)
     }
 }
