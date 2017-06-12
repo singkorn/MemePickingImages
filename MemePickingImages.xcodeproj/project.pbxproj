@@ -12,6 +12,8 @@
 		7ED1F1441EC2333800116DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED1F1421EC2333800116DF8 /* Main.storyboard */; };
 		7ED1F1461EC2333800116DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED1F1451EC2333800116DF8 /* Assets.xcassets */; };
 		7ED1F1491EC2333800116DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED1F1471EC2333800116DF8 /* LaunchScreen.storyboard */; };
+		7ED1F1511EC3764C00116DF8 /* TopTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED1F1501EC3764C00116DF8 /* TopTextFieldDelegate.swift */; };
+		7ED1F1541EC3768400116DF8 /* BottomTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED1F1531EC3768400116DF8 /* BottomTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7ED1F1451EC2333800116DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ED1F1481EC2333800116DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ED1F14A1EC2333800116DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED1F1501EC3764C00116DF8 /* TopTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTextFieldDelegate.swift; sourceTree = "<group>"; };
+		7ED1F1531EC3768400116DF8 /* BottomTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,22 @@
 			children = (
 				7ED1F13E1EC2333800116DF8 /* AppDelegate.swift */,
 				7ED1F1401EC2333800116DF8 /* ViewController.swift */,
+				7ED1F1521EC3765800116DF8 /* Text Field Delegates */,
 				7ED1F1421EC2333800116DF8 /* Main.storyboard */,
 				7ED1F1451EC2333800116DF8 /* Assets.xcassets */,
 				7ED1F1471EC2333800116DF8 /* LaunchScreen.storyboard */,
 				7ED1F14A1EC2333800116DF8 /* Info.plist */,
 			);
 			path = MemePickingImages;
+			sourceTree = "<group>";
+		};
+		7ED1F1521EC3765800116DF8 /* Text Field Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7ED1F1501EC3764C00116DF8 /* TopTextFieldDelegate.swift */,
+				7ED1F1531EC3768400116DF8 /* BottomTextFieldDelegate.swift */,
+			);
+			name = "Text Field Delegates";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED1F1511EC3764C00116DF8 /* TopTextFieldDelegate.swift in Sources */,
+				7ED1F1541EC3768400116DF8 /* BottomTextFieldDelegate.swift in Sources */,
 				7ED1F1411EC2333800116DF8 /* ViewController.swift in Sources */,
 				7ED1F13F1EC2333800116DF8 /* AppDelegate.swift in Sources */,
 			);
